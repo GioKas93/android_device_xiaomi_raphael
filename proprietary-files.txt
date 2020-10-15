@@ -766,6 +766,27 @@ vendor/lib64/libgpudataproducer.so|cc439ebe3e2b6374f9991db701d77a967031816a
 vendor/lib64/libgsl.so|a1945d563de95c966f5aad71cd40f538525c68f4
 vendor/lib64/libllvm-glnext.so|bd2d7c63fd03b3ddd86ed8342fcec47994c9ec7f
 vendor/lib64/libllvm-qcom.so|0a8f97f37c6027d896aef5654513989d9e7e60ca
+# Popup camera sound effects
+product/media/audio/ui/popup_cangmen_down.ogg
+product/media/audio/ui/popup_cangmen_up.ogg
+product/media/audio/ui/popup_chilun_down.ogg
+product/media/audio/ui/popup_chilun_up.ogg
+product/media/audio/ui/popup_jijia_down.ogg
+product/media/audio/ui/popup_jijia_up.ogg
+product/media/audio/ui/popup_mofa_down.ogg
+product/media/audio/ui/popup_mofa_up.ogg
+product/media/audio/ui/popup_muqin_down.ogg
+product/media/audio/ui/popup_muqin_up.ogg
+product/media/audio/ui/popup_yingyan_down.ogg
+product/media/audio/ui/popup_yingyan_up.ogg
+product/media/audio/ui/popup_imperial_march_down.ogg|fcee239fad64840c09b381335f86048cacc54832
+product/media/audio/ui/popup_imperial_march_up.ogg|584f94b79ce7b13a5f29d618ac35f949773625c9
+product/media/audio/ui/popup_lightsaber_down.ogg|6a3fa079443ff8b663b2294ac54a558263b935e2
+product/media/audio/ui/popup_lightsaber_up.ogg|18f78fc7bc485c3f233b496e7c4876625f03aab6
+product/media/audio/ui/popup_throne_room_down.ogg|0a250fbad938fb64cdf1d19220bf02e50811ffec
+product/media/audio/ui/popup_throne_room_up.ogg|e52d7c2a15f899a02ae02184a31ffe89f6bc167c
+product/media/audio/ui/popup_super_mario_down.ogg|8cb36a344e844c2909e5eaf0c5329c7043f0ad8f
+product/media/audio/ui/popup_super_mario_up.ogg|a3d022ef6b3654be67a55180b5a5150dfb837060
 
 # Graphics (SDM) - from LA.UM.9.1.r1-08300-SMxxx0.0
 vendor/lib64/libhdr_tm.so|e4638c3bf21685b84650c5858bafe384ab2118ff
