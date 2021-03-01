@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_raphael.mk
+    $(LOCAL_DIR)/dot_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_raphael-user \
-    ssos_raphael-userdebug \
-    ssos_raphael-eng
+    dot_raphael-user \
+    dot_raphael-userdebug \
+    dot_raphael-eng
