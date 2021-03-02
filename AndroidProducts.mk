@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_raphael.mk
+    $(LOCAL_DIR)/nitrogen_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_raphael-user \
-    dot_raphael-userdebug \
-    dot_raphael-eng
+    nitrogen_raphael-user \
+    nitrogen_raphael-userdebug \
+    nitrogen_raphael-eng

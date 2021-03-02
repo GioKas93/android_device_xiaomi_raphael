@@ -16,10 +16,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_raphael
+PRODUCT_NAME := nitrogen_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
@@ -30,12 +30,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# DotOS stuff
+# NitrogenOS stuff
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.dot.cpu=SD855
+  ro.nitrogen.cpu=SD855
 
-DOT_BUILD_TYPE := UNOFFICIAL
+NITROGEN_BUILD_TYPE := UNOFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USES_BLUR := true
+TARGET_USES_BLUR := false
 EXTRA_FOD_ANIMATIONS := true
