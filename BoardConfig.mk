@@ -221,6 +221,8 @@ USE_SENSOR_MULTI_HAL := true
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/nitrogen/sepolicy/qcom/sepolicy.mk
+include device/nitrogen/sepolicy/common/sepolicy.mk
 include device/xiaomi/raphael-sepolicy/raphael-sepolicy.mk
 SELINUX_IGNORE_NEVERALLOWS=true
 
