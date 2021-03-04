@@ -9,6 +9,7 @@ rm -rf vendor/qcom/opensource/commonsys/system/bt
 rm -rf vendor/qcom/opensource/commonsys/bluetooth_ext
 rm -rf vendor/qcom/opensource/commonsys-intf/bluetooth
 rm -rf external/sqlite
+rm -rf vendor/qcom/opensource/power
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_audio -b eleven hardware/qcom-caf/sm8150/audio
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_display -b eleven hardware/qcom-caf/sm8150/display
 #git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media -b eleven hardware/qcom-caf/sm8150/media
@@ -24,4 +25,5 @@ git clone https://github.com/LineageOS/android_packages_resources_devicesettings
 git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-sm8150 hardware/qcom-caf/sm8150/media
 #git clone https://github.com/yaap/hardware_qcom-caf_sm8150_audio -b eleven hardware/qcom-caf/sm8150/audio
 #git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-18.1-caf-sm8150 hardware/qcom-caf/sm8150/display
+git clone https://github.com/LineageOS/android_vendor_qcom_opensource_power -b lineage-18.1 vendor/qcom/opensource/power
 git clone https://github.com/syberia-project/platform_external_sqlite -b 11.0 external/sqlite
