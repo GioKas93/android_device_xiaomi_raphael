@@ -1,4 +1,4 @@
-rm -rf hardware/qcom/display && git clone https://github.com/yaap/hardware_qcom_display -b eleven hardware/qcom/display
+rm -rf hardware/qcom/display && git clone https://github.com/ShapeShiftOS/android_hardware_qcom_display -b android_11 hardware/qcom/display
 rm -rf hardware/qcom-caf/sm8150/audio && git clone https://github.com/yaap/hardware_qcom-caf_sm8150_audio -b eleven hardware/qcom-caf/sm8150/audio
 rm -rf hardware/qcom-caf/sm8150/media && git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-18.1-caf-sm8150 hardware/qcom-caf/sm8150/media
 rm -rf hardware/qcom-caf/sm8150/display && git clone https://github.com/yaap/hardware_qcom-caf_sm8150_display -b eleven hardware/qcom-caf/sm8150/display
